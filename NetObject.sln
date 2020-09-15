@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01CalculateDaysForSP", "01CalculateDaysForSP\01CalculateDaysForSP.csproj", "{D3682A1F-EDBB-46D9-A9C7-EF0FCF257ACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02InformationExchange", "02InformationExchange\02InformationExchange.csproj", "{6A966855-AB04-48B7-861A-5D844C4289D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02InformationExchange", "02InformationExchange\02InformationExchange.csproj", "{6A966855-AB04-48B7-861A-5D844C4289D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreMini", "CoreMini\CoreMini.csproj", "{5F7221E0-A702-4924-A095-EED4DC439CF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreMini", "CoreMini\CoreMini.csproj", "{5F7221E0-A702-4924-A095-EED4DC439CF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPipeline", "MyPipeline\MyPipeline.csproj", "{1E409550-220C-479E-83A6-A8B03013F0B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPipeline", "MyPipeline\MyPipeline.csproj", "{1E409550-220C-479E-83A6-A8B03013F0B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03CatDI", "03CatDI\03CatDI.csproj", "{EDABCDA2-B833-497C-A32E-4414ABB6F460}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,18 @@ Global
 		{1E409550-220C-479E-83A6-A8B03013F0B0}.Release|x64.Build.0 = Release|Any CPU
 		{1E409550-220C-479E-83A6-A8B03013F0B0}.Release|x86.ActiveCfg = Release|Any CPU
 		{1E409550-220C-479E-83A6-A8B03013F0B0}.Release|x86.Build.0 = Release|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Debug|x64.Build.0 = Debug|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Debug|x86.Build.0 = Debug|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Release|x64.ActiveCfg = Release|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Release|x64.Build.0 = Release|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Release|x86.ActiveCfg = Release|Any CPU
+		{EDABCDA2-B833-497C-A32E-4414ABB6F460}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

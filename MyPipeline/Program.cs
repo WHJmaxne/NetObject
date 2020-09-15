@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace MyPipeline
@@ -7,6 +8,13 @@ namespace MyPipeline
     {
         static void Main(string[] args)
         {
+            double[] doubleArr = new double[] { 3.97, 2.82, 1.66, 0.1, 1.45 };
+            float[] floatArr = new float[] { 3.97f, 2.82f, 1.66f, 0.1f, 1.45f };
+            decimal[] decimalArr = new decimal[] { 3.97m, 2.82m, 1.66m, 0.1m, 1.45m };
+
+            Console.WriteLine(doubleArr.Sum());
+            Console.WriteLine(floatArr.Sum());
+            Console.WriteLine(decimalArr.Sum());
 
             IApplicationBuilder app = new ApplicationBuilder();
             app.Use(next =>
